@@ -88,10 +88,6 @@ alarm_h = (go_bed_h * 60 + sleep_min) / 60
 alarm_m = (sleep_min + go_bed_h * 60 + go_bed_m) % 60
 print(round(alarm_h), alarm_m, sep='\n')
 
-Поддерживаемые операции: +, -, /, *, mod, pow, div, где
-mod — это взятие остатка от деления,
-pow — возведение в степень,
-div — целочисленное деление.
 
 operations = {
       "+": lambda x, y: x + y,
@@ -294,7 +290,7 @@ for i in range(n - 1):
     a[i], a[b + i] = a[b + i], a[i]
 print(a)
 
-insert sort
+# insert sort
 numbers = [1, 45, -34, 34, 54, 446, 930, 560, -1, 0, 12, 34, 34]
 list = len(numbers)
 for i in range(1, list):
@@ -962,10 +958,6 @@ for i in range(int(input())):
     res += int(input().split()[i])
 print(res)
 
-
-n, m = int(input()), int(input())
-def sum_mul(n, m):
-    while n < m
 
 
 name = input()
